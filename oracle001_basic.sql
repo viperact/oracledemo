@@ -46,7 +46,7 @@ FROM table_name
 WHERE column_name = 'value'
 GROUP BY column_name
 HAVING column_name = 'value'
-ORDER BY column_name ASC, column_name DESC; 
+ORDER BY column_name ASC, column_name DESC;
 
 -- SELECT 해석 순서
 
@@ -279,6 +279,8 @@ MINUS
 SELECT department_id, first_name, last_name
 FROM employees
 WHERE department_id=20 OR department_id=60;
+
+
 
 
 
