@@ -57,7 +57,7 @@ SELECT * FROM user_sequences;
     SELECT * FROM emp09;
     
     DELETE FROM emp09
-    WHERE NUM=6;
+    WHERE NUM=11;
     
     SELECT * FROM emp09;
     
