@@ -9,6 +9,12 @@ FROM employees;
 SELECT * FROM employees;
 SELECT * FROM tab; -- 테이블검색 (SELECT)
 
+DELETE
+FROM mem
+WHERE num >= 16;
+
+COMMIT;
+
 /*
 컬럼명, 테이블명에 별칭(alias)을 지정할 수 있다
 별칭(alias)에 공백이 있을 때는 " "(쌍따옴표)를 지정한다.
