@@ -36,12 +36,38 @@ select num, readcount
 from board
 where num=2;
 
-
+/*가장 최근에 답변한 답변글이 제일 위로오게*/
 select num, subject, ref, re_step, re_level
 from board
-order by ref desc, re_step asc
+order by ref desc, re_step asc;
 
+/*일반 정렬*/
+select num, subject, ref, re_step, re_level
+from board
+order by num asc;
 
+DELETE FROM board
+WHERE num = 8;
+
+commit;
+
+/*
+                          출력순서   들여쓰기
+num   subject       ref,  re_step,  re_level
+1      제목글1        1        0       0
+2      제목글2        2        0       0
+3     제목1_답변1     1        2       1
+4     제목2_답변2     1        1       1
+*/
+num   subject  ref  re_step re_level
+1	제목1	    1	    0	    0
+2	안녕하세요	2	    0	    0
+3	반갑습니다	3	    0	    0
+4	반가워요	    4	    0	    0
+5	안녕히가세요	5	    0	    0
+6	굿모닝	    6	    0	    0
+7	첫번째	    3	    2	    1
+9	두번째	    3	    1	    1
 
 select b.* 
 from (select rownum as rm, a.*
