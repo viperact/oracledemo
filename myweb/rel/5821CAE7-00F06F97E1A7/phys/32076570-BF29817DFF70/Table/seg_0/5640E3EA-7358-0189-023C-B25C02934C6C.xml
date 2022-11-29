@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="board2" directorySegmentName="seg_0" id="5640E3EA-7358-0189-023C-B25C02934C6C">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-11-29 10:34:07 UTC</createdTime>
+<ownerDesignName>myweb</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="writer" id="25E02C6F-071C-0434-3E4F-2E3826591C5B">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-11-29 10:34:07 UTC</createdTime>
+<ownerDesignName>myweb</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="title" id="ABED33EB-558D-E64B-3BD0-F289E6118BA6">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-11-29 10:34:07 UTC</createdTime>
+<ownerDesignName>myweb</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="num" id="F6871D7E-332B-D97F-3ECD-C675DCDEDAE4">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-11-29 10:34:07 UTC</createdTime>
+<ownerDesignName>myweb</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="board_2_PK" id="446003D1-A226-0803-5687-F28E9DA29D1E">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-11-29 10:34:07 UTC</createdTime>
+<ownerDesignName>myweb</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
