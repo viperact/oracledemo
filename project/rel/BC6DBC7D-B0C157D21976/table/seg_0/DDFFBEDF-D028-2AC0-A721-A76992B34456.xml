@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DDFFBEDF-D028-2AC0-A721-A76992B34456" name="detail">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-12-06 06:30:58 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="gender" id="A66A55B3-53AE-6120-70AB-265380A0CC4F">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-12-06 06:32:23 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="age" id="0F0108D8-3EB0-78D7-A704-5C8767E3E02E">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-12-06 06:33:49 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="season" id="5670B7BD-C6E9-7F03-A968-26C0A8766769">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-12-06 06:34:22 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B4A23B1-E126-D678-2173-3B0E26CBAC81" name="detail_PK">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-12-06 06:32:23 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A66A55B3-53AE-6120-70AB-265380A0CC4F"/>
+<colUsage columnID="0F0108D8-3EB0-78D7-A704-5C8767E3E02E"/>
+<colUsage columnID="5670B7BD-C6E9-7F03-A968-26C0A8766769"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

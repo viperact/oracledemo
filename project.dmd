@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="project" id="BF6DA73F-D9E1-0B5D-9AF1-B2A74C66DF40" version="3.5">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-12-06 06:27:09 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BF6DA73F-D9E1-0B5D-9AF1-B2A74C66DF40</designId>
+</OSDM_Design>
