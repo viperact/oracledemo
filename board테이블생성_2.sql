@@ -5,6 +5,54 @@ SELECT * FROM board;
 DROP TABLE board;
 DROP SEQUENCE board_num_seq;
 
+/////////////////////////로그인 테이블//////////////////////////
+
+create table t_member(
+  id varchar2(20),
+  pwd varchar2(20),
+  name varchar2(30),
+  email varchar(50),
+  joinDate Date
+);
+
+select * from t_member;
+
+insert into t_member
+values('a1234', 'a1234', '홍길동', 'a1234@daum.net', sysdate);
+
+commit;
+
+delete from t_member;
+
+drop table t_member;
+
+////////////////////////////////////////////////////////
+
+create table tb_user(
+  id number,
+  username varchar2(30),
+  password varchar2(20),
+  email varchar2(50),
+  authRole varchar(30),
+  createDate Date
+);
+
+create sequence tb_user_id_seq
+ start with 1
+ increment by 1
+ nocache
+ nocycle;
+
+insert into tb_user
+values(tb_user_id_seq.nextval, 'a1234', 'a1234', 'a1234@daum.net', null, sysdate);
+commit;
+
+select * from tb_user;
+
+
+delete from tb_user
+where id = 2;
+//////////////////////////////////////////////
 
 1. 테이블생성 
 create table board(
