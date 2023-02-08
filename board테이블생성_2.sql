@@ -47,11 +47,14 @@ insert into tb_user
 values(tb_user_id_seq.nextval, 'a1234', 'a1234', 'a1234@daum.net', null, sysdate);
 commit;
 
-select * from tb_user;
-
-
 delete from tb_user
 where id = 2;
+
+DESC tb_user;
+ALTER TABLE tb_user
+MODIFY password varchar2(100);
+
+select * from tb_user;
 //////////////////////////////////////////////
 
 1. 테이블생성 
